@@ -3,31 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Stats preview card component</title>
 </head>
+
 <body>
 
-  Get insights that help your business grow.
+  <section class="container">
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+    <div class="head-img">
+      <img src="/images/image-header-mobile.jpg" alt="Header Image">
+    </div>
 
-  10k+ companies
-  314 templates
-  12m+ queries
+    <h1 class="head-text">Get insights that help your business grow.</h1>
+    <p class="lead-text">  Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <div class="stats">
+
+      <div class="stats-card">
+        <p>10k+<span>companies</span></p>
+      </div>
+
+      <div class="stats-card">
+        <p>314<span>templates</span></p>
+      </div>
+
+      <div class="stats-card">
+        <p>12m+<span>queries</span></p>
+      </div>
+
+    </div>
+
+ 
+    <div class="attribution">
+      Coded by <a href="#">Dmitry Mitenkoff</a>.
+    </div>
+
+  </section>
+
 </body>
 </html>
