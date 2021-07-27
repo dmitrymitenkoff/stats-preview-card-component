@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/dmitrymitenkoff/stats-preview-card-component)
-- Live Site URL: [Add live site URL here](https://stats-preview-card-component-rho-six.vercel.app/)
+- Solution URL: [GitHub](https://github.com/dmitrymitenkoff/stats-preview-card-component)
+- Live Site URL: [Vercel](https://stats-preview-card-component-rho-six.vercel.app/)
 
 ### Built with
 
