@@ -40,10 +40,10 @@ body {
 .empty-container {
   width: 348px;
   height: 736px;
-  position: absolute;
+  
   left: -167px;
   top: -196px;
-  background-color: #1b1937;
+  
   box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
   z-index: -10;
   border-radius: 8px;
@@ -58,6 +58,12 @@ body {
   background-repeat: no-repeat;
   width: 375px;
   height: 229px;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card {
+  background-color: #1b1937;
+  border-radius: 0px 0px 8px 8px;
 }
 
 .head-text {
@@ -130,10 +136,6 @@ body {
     padding: 0; 
   }
 
-  .empty-container {
-    display: none;
-  }
-
   .image-container {
     order: 2;
     flex-basis: 50%;
@@ -167,5 +169,13 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .stats-card span {
+    font-family: var(--lexend-deca-font);
+  }
+
+  .stats-card:last-of-type p {
+    text-transform: uppercase;
   }
 }
